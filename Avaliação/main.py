@@ -1,6 +1,6 @@
 import random
 
-def gerar_listas(N, M):
+def gerar_listas(Listas, Tamanho):
     listas = []
     for _ in range(N):
         lista = [random.randint(1, 100) for _ in range(M)]
