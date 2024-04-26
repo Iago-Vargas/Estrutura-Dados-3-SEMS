@@ -3,7 +3,7 @@ import random
 def gerar_listas(Listas, Tamanho):
     listas = []
     for _ in range(N):
-        lista = [random.randint(1, 100) for _ in range(M)]
+        lista = [random.randint(1, 100) for _ in range(Tamanho)]
         listas.append(lista)
     return listas
 
